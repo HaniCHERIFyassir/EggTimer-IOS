@@ -35,7 +35,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" name="Color"/>
+                        <color key="backgroundColor" name="splash_screen_color"/>
                         <constraints>
                             <constraint firstItem="Nda-if-72z" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.117371" id="F7i-jG-8BK"/>
                             <constraint firstItem="Nda-if-72z" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="N5O-Z2-YEz"/>
@@ -51,8 +51,8 @@
     </scenes>
     <resources>
         <image name="soft_egg" width="287" height="365.33334350585938"/>
-        <namedColor name="Color">
-            <color red="0.84440106150000005" green="0.32844817640000001" blue="0.1450049877" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        <namedColor name="splash_screen_color">
+            <color red="0.84399998188018799" green="0.32800000905990601" blue="0.14499999582767487" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>

@@ -127,7 +127,7 @@ class ViewController: UIViewController {
     view.addSubview(timeProgressBar)
 
     selectedEggTitle.text = selectedEgg.title
-    selectedEggTitle.textColor = .darkText
+    selectedEggTitle.textColor = UIColor(named: "secondColor")
     selectedEggTitle.numberOfLines = 2
     selectedEggTitle.textAlignment = .center
     selectedEggTitle.font = .systemFont(ofSize: 30,weight: .medium)
@@ -155,9 +155,9 @@ class ViewController: UIViewController {
 
     timeProgressBar.translatesAutoresizingMaskIntoConstraints = false
     timeProgressBar.setProgress(0, animated: true)
-    timeProgressBar.trackTintColor = .systemGray6
+    timeProgressBar.trackTintColor = UIColor(named: "secondColor")
     timeProgressBar.tintColor = .systemYellow
-    timeProgressBar.transform = CGAffineTransformMakeScale(1, 4)
+    timeProgressBar.transform = CGAffineTransformMakeScale(1, 3)
     timeProgressBar.isHidden = true
 
   }
