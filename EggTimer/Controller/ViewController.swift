@@ -44,6 +44,7 @@ class ViewController: UIViewController {
   var allEggs = [UIButton]()
 
   let timeProgressBar: UIProgressView = UIProgressView(progressViewStyle: .bar)
+  var audioPlayer: AVPlayer?
   var timer: Timer = Timer()
   var selectedEgg: Egg = Egg(title: Constants.defaultTitle, time: 100)
   var currentProgress: Double = 0
@@ -83,6 +84,7 @@ class ViewController: UIViewController {
     if currentProgress != selectedEgg.time {
       currentProgress += 1
       remainingTime = selectedEgg.time - currentProgress
+      remainingTime == 10 ? playSound() : nil
       timeProgressBar.setProgress(Float( currentProgress / selectedEgg.time), animated: true)
       selectedEggTitle.text = "\(selectedEgg.title)\n will be ready in \(Int(remainingTime))s"
 
@@ -105,6 +107,14 @@ class ViewController: UIViewController {
     }
   }
 
+  func playSound() {
+    let audioSource = Bundle.main.url(forResource: "sound", withExtension: "mp3")
+    if let sound = audioSource {
+      audioPlayer = .init(url: sound)
+      if let isAudio = audioPlayer {
+        isAudio.play()
+      }
+    }
   }
 
 
