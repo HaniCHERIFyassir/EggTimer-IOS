@@ -13,6 +13,9 @@
 		379A13D42A80E5BB0092F4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379A13D22A80E5BB0092F4C9 /* Main.storyboard */; };
 		379A13D62A80E5BC0092F4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A13D52A80E5BC0092F4C9 /* Assets.xcassets */; };
 		379A13D92A80E5BC0092F4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379A13D72A80E5BC0092F4C9 /* LaunchScreen.storyboard */; };
+		37F45B712A828D9700094B6B /* UIStackView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F45B702A828D9600094B6B /* UIStackView+Extention.swift */; };
+		37F45B732A828F6E00094B6B /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F45B722A828F6E00094B6B /* UIButton+Extention.swift */; };
+		37F45B752A82C01700094B6B /* Egg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F45B742A82C01700094B6B /* Egg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		379A13D52A80E5BC0092F4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379A13D82A80E5BC0092F4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379A13DA2A80E5BC0092F4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F45B702A828D9600094B6B /* UIStackView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extention.swift"; sourceTree = "<group>"; };
+		37F45B722A828F6E00094B6B /* UIButton+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
+		37F45B742A82C01700094B6B /* Egg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		379A13CB2A80E5BB0092F4C9 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				37F45B6F2A828D7500094B6B /* Extentions */,
 				379A13E22A80EA310092F4C9 /* Model */,
 				379A13E12A80EA270092F4C9 /* Controller */,
 				379A13E02A80EA180092F4C9 /* View */,
@@ -87,8 +94,18 @@
 		379A13E22A80EA310092F4C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				37F45B742A82C01700094B6B /* Egg.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		37F45B6F2A828D7500094B6B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				37F45B702A828D9600094B6B /* UIStackView+Extention.swift */,
+				37F45B722A828F6E00094B6B /* UIButton+Extention.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +181,9 @@
 			files = (
 				379A13D12A80E5BB0092F4C9 /* ViewController.swift in Sources */,
 				379A13CD2A80E5BB0092F4C9 /* AppDelegate.swift in Sources */,
+				37F45B732A828F6E00094B6B /* UIButton+Extention.swift in Sources */,
+				37F45B752A82C01700094B6B /* Egg.swift in Sources */,
+				37F45B712A828D9700094B6B /* UIStackView+Extention.swift in Sources */,
 				379A13CF2A80E5BB0092F4C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
