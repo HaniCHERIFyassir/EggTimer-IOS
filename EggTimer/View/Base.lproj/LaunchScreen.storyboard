@@ -41,7 +41,6 @@
                             <constraint firstItem="Nda-if-72z" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="N5O-Z2-YEz"/>
                             <constraint firstItem="Nda-if-72z" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.793045" id="YfD-Ol-54W"/>
                             <constraint firstItem="Nda-if-72z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dEV-Wl-IFi"/>
-                            <constraint firstItem="tV9-YL-ESH" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.254453" id="eqr-rD-HeA"/>
                         </constraints>
                     </view>
                 </viewController>
