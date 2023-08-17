@@ -68,3 +68,12 @@ The Egg Timer App is a simple iOS application developed using Swift and UIKit. I
 
 Contributions are welcome! If you find any issues or have suggestions, feel free to submit a pull request.
 
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact the project maintainer at hanisalaheddine.cherif@gmail.com.
+
+
+
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/haany"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="haany" /></a></p><br><br>
